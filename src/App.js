@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="left-navigation">
+          <p>Hello</p>
+        </div>
+        <div className="right-navigation">
+          <FontAwesomeIcon icon={faGithub} />
+          <FontAwesomeIcon icon={faEnvelope} />
+          <FontAwesomeIcon icon={faLinkedin} />
+        </div>
       </header>
+      <section>
+        <div className="body">
+          <div className="link-sections"></div>
+          <div className="content-sections"></div>
+        </div>
+      </section>
     </div>
   );
 }
