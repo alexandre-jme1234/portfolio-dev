@@ -1,0 +1,22 @@
+{
+    "section": [
+        {
+            "_id": "0",
+            "title": "Développeur front-end",
+            "subtitle": "Développeur front-end",
+            "body": "Je m’appelle Alexandre JAMME et je suis UX/UI designer, mais aussi développeur front-end !Après une formation diplomante a la Capsule, j’ai développé de nombreux projets archivés dans cet espace dédié à mes projets en développement full stack. Passionné par le développement et la démarche UX en web design, vous retrouverez dans ce portefolio des projets conçus et développés avec des frameworks comme React ou React Native dans un environnement NodeJs. Express. Bonne visite !"
+        },
+        {
+            "_id": "1",
+            "title": "HackTweet",
+            "subtitle": "Projet La Capsule",
+            "body": "Cette application est développé en React et elle propose 5 fonctionnalités : l’une de logIn, LogOut, ainsi que de SignIn, SignOut. Il est possible d’éditer des tweets, mais également de filtrer la recherche de Tweets par auteur.Une Base de donnée est générée avec MongoDB, l’algorithme d’inscription et d’authentification est lui développé en Mongoose."
+        },
+        {   
+            "_id": "2",
+            "title": "BlackBoard",
+            "subtitle": "Projet La Capsule",
+            "body": "Pour gérer un stock fictif de trottinettes, dans le cadre de ce projet j’ai développé une base de données noSQL MongoDB.Le langage Mongoose est utilisé pour créer, supprimer, modifier et visualiser les données en base."
+        }
+    ]
+}

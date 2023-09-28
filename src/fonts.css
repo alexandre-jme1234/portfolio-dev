@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Switzer";
+      src: local("Switzer Medium"), local("Switzer-Medium"),
+        url("Switzer-Medium.otf") format('otf');
+      font-weight: 500;
+      font-style: medium;
+    }

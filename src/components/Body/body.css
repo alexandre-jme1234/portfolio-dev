@@ -1,0 +1,29 @@
+.block-body {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+.body-title {
+    font-family: 'Roboto', bold;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.body-subtitle{
+    font-family: 'Roboto', bold;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.body {
+    font-family: 'Roboto', bold;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}

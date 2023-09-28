@@ -1,0 +1,47 @@
+.blockButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20px;
+    padding: 10px;
+    width: 600px;
+}
+
+.blockButton:hover .square{
+    animation-name: rotate;
+    height: 1px;
+    width: 100px;
+    background-color: rgb(188, 188, 188);
+    animation-duration: 1.2s;
+    margin-right: 5px;
+}
+
+.square{
+    height: 1px;
+    width: 10px;
+    background-color: rgb(188, 188, 188);
+    margin-right: 5px;
+}
+
+.link-sections:hover{
+    width: auto;
+    font-family: 'Roboto';
+    font-size: small;
+    color: #F5FFFE;
+}
+
+.link-sections{
+    width: auto;
+    font-family: 'Roboto';
+    font-size: small;
+    color: #868B8A;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
